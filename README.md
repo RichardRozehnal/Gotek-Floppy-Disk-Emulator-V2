@@ -3,7 +3,7 @@
 ![Gotek Floppy Disk Emulator V2](Fotky/Gotek_V2_PCB_Top_osazeny.jpg "Gotek Floppy Disk Emulator V2")
 
 Emulátor disketové mechaniky starých počítačů a různých zařízení. Software se do počítače nahrává z obrazu originálního disku (např. ADF pro Amigu), který je uložen na USB flash disku. Tato verze hardwaru využívá firmware [FlashFloppy](https://github.com/keirf/FlashFloppy/wiki), který přidává spoustu nových funkcí a vylepšení oproti standardnímu Goteku. Na uvedém odkazu tvůrce, najdete detailní popisy všech funkcí a nastavení a také nejnovější firmware.
-
+<br><br>
 ## Seznam součástek
 
 | **Ref**                                                                                                  | **Qnty** | **Value**                   | **Cmp name**                   |
@@ -33,7 +33,7 @@ Emulátor disketové mechaniky starých počítačů a různých zařízení. So
 | U3,                                                                                                      | 1        | STMPS2141                   | STMPS2141                      |
 | U4,                                                                                                      | 1        | 74HCT04                     | 74HCT04                        |
 | Y1,                                                                                                      | 1        | 8MHz                        | Crystal                        |
-
+<br><br>
 ## Oživení
 
 ### Programování mikrokontroléru pomocí ST-Link V2
@@ -49,7 +49,7 @@ Emulátor disketové mechaniky starých počítačů a různých zařízení. So
 
 Pro Amigu, Atari ST a další počítače je nastavení:
 
-| **sig** | **zap/vyp** |                                         |
+| **sig** | **zap/vyp** | **funkce**                              |
 | :-----: | :---------: | --------------------------------------- |
 | DC1     | OFF         |                                         |
 | DC2     | ON          |                                         |
@@ -71,7 +71,7 @@ Pro Amigu, Atari ST a další počítače je nastavení:
 ### Nastavení firmware
 
 1. Gotek V2 funguje s defaultním nastavením i bez konfiguračního souboru
-2. pokud chcete určitou konfiguci změnit, vytvořte na USB flash disku adresář FF a do něj nahrajte konfigurační soubor FF.CFG
+2. pokud však chcete určitou konfiguci změnit, vytvořte na USB flash disku adresář FF a do něj nahrajte konfigurační soubor FF.CFG
 3. zrušení automatického spouštění souboru: autoselect-file-secs = 0
 4. zrušení automatického vybrání adresáře: autoselect-folder-secs = 0
 5. změna orientace posuvu v souborech: rotary = reverse

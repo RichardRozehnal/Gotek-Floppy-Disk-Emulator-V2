@@ -34,6 +34,7 @@ Emulátor disketové mechaniky starých počítačů a různých zařízení. So
 | U4,                                                                                                      | 1        | 74HCT04                     | 74HCT04                        |
 | Y1,                                                                                                      | 1        | 8MHz                        | Crystal                        |
 <br><br>
+
 ## Oživení
 
 ### Programování mikrokontroléru pomocí ST-Link V2

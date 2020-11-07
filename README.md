@@ -77,6 +77,7 @@ Pro Amigu, Atari ST a další počítače je nastavení:
 5. změna orientace posuvu v souborech: rotary = reverse
 6. změna kroků enkodéru: rotary = half
 7. je možné vybrat i více nastavení najednou, např.: rotary = reverse,half
+<br>
 
 ## Další fotky (vzorky, úprava na BOT straně již není potřeba)
 

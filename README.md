@@ -2,11 +2,7 @@
 
 ![Gotek Floppy Disk Emulator V2](Fotky/Gotek_V2_PCB_Top_osazeny.jpg "Gotek Floppy Disk Emulator V2")
 
-
-Emulátor disketové mechaniky starých počítačů a různých zařízení. Software se do počítače nahrává z obrazu originálního disku (např. ADF pro Amigu), který je uložen na USB flash disku.
-Tato verze hardwaru využívá firmware [FlashFloppy](https://github.com/keirf/FlashFloppy/wiki), který přidává spoustu nových funkcí a vylepšení oproti standadnímu Goteku.
-Na uvedém odkazu tvůrce najdete detailní popisy všech funkcí a nastavení a také nejnovější firmware.
-
+Emulátor disketové mechaniky starých počítačů a různých zařízení. Software se do počítače nahrává z obrazu originálního disku (např. ADF pro Amigu), který je uložen na USB flash disku. Tato verze hardwaru využívá firmware [FlashFloppy](https://github.com/keirf/FlashFloppy/wiki), který přidává spoustu nových funkcí a vylepšení oproti standardnímu Goteku. Na uvedém odkazu tvůrce, najdete detailní popisy všech funkcí a nastavení a také nejnovější firmware.
 
 ## Seznam součástek
 
@@ -28,7 +24,7 @@ Na uvedém odkazu tvůrce najdete detailní popisy všech funkcí a nastavení a
 | Q2, Q3, Q4, Q5, Q6, Q7,                                                                                  | 6        | BSS123                      | BSS123                         |
 | R1,                                                                                                      | 1        | 4K7                         | R                              |
 | R2, R3, R7, R8, R9, R10, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R24, R25, R26, | 22       | 1K                          | R                              |
-| R4, R27                                                                                                  | 1        | 10K                         | R                              |
+| R4, R27                                                                                                  | 2        | 10K                         | R                              |
 | R5, R6,                                                                                                  | 2        | 22R                         | R                              |
 | SW1,                                                                                                     | 1        | KY040 Rotary Encoder Module | KY040\_Rotary\_Encoder\_Module |
 | SW2,                                                                                                     | 1        | DIP Switch                  | DIP\_Switch                    |
@@ -37,7 +33,6 @@ Na uvedém odkazu tvůrce najdete detailní popisy všech funkcí a nastavení a
 | U3,                                                                                                      | 1        | STMPS2141                   | STMPS2141                      |
 | U4,                                                                                                      | 1        | 74HCT04                     | 74HCT04                        |
 | Y1,                                                                                                      | 1        | 8MHz                        | Crystal                        |
-
 
 ## Oživení
 
@@ -49,7 +44,6 @@ Na uvedém odkazu tvůrce najdete detailní popisy všech funkcí a nastavení a
 4. připojte se na MCU přes menu Target/Connect
 5. přes menu File/Open File vyberte soubor FF_Gotek-v3.20.hex (nebo jiný, který chcete nahrát do MCU)
 6. spusťte flashování přes menu Target/Program & Verify a Start
-7. 
 
 ### Nastavení DIP přepínače SW2
 

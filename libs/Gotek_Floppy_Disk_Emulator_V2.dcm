@@ -1,0 +1,682 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +3.3V
+D Power symbol creates a global label with name "+3.3V"
+K power-flag
+$ENDCMP
+#
+$CMP +3V3
+D Power symbol creates a global label with name "+3V3"
+K power-flag
+$ENDCMP
+#
+$CMP +5V
+D Power symbol creates a global label with name "+5V"
+K power-flag
+$ENDCMP
+#
+$CMP 2N7002
+D 0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23
+K N-Channel Switching MOSFET
+F https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf
+$ENDCMP
+#
+$CMP 2N7002E
+D 0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/ds30376.pdf
+$ENDCMP
+#
+$CMP 2N7002H
+D 0.21A Id, 60V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/2N7002H.pdf
+$ENDCMP
+#
+$CMP 2N7002K
+D 0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F https://www.diodes.com/assets/Datasheets/ds30896.pdf
+$ENDCMP
+#
+$CMP 74AHC04
+D Hex Inverter
+K AHCMOS not inv
+F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT04.pdf
+$ENDCMP
+#
+$CMP 74AHCT04
+D Hex Inverter
+K AHCTMOS not inv
+F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT04.pdf
+$ENDCMP
+#
+$CMP 74HC04
+D Hex Inverter
+K HCMOS not inv
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf
+$ENDCMP
+#
+$CMP 74HCT04
+D Hex Inverter
+K HCTMOS not inv
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf
+$ENDCMP
+#
+$CMP 74LS04
+D Hex Inverter
+K TTL not inv
+F http://www.ti.com/lit/gpn/sn74LS04
+$ENDCMP
+#
+$CMP AMS1117-1.5
+D 1A Low Dropout regulator, positive, 1.5V fixed output, SOT-223
+K linear regulator ldo fixed positive
+F http://www.advanced-monolithic.com/pdf/ds1117.pdf
+$ENDCMP
+#
+$CMP AMS1117-1.8
+D 1A Low Dropout regulator, positive, 1.8V fixed output, SOT-223
+K linear regulator ldo fixed positive
+F http://www.advanced-monolithic.com/pdf/ds1117.pdf
+$ENDCMP
+#
+$CMP AMS1117-2.5
+D 1A Low Dropout regulator, positive, 2.5V fixed output, SOT-223
+K linear regulator ldo fixed positive
+F http://www.advanced-monolithic.com/pdf/ds1117.pdf
+$ENDCMP
+#
+$CMP AMS1117-2.85
+D 1A Low Dropout regulator, positive, 2.85V fixed output, SOT-223
+K linear regulator ldo fixed positive
+F http://www.advanced-monolithic.com/pdf/ds1117.pdf
+$ENDCMP
+#
+$CMP AMS1117-3.3
+D 1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223
+K linear regulator ldo fixed positive
+F http://www.advanced-monolithic.com/pdf/ds1117.pdf
+$ENDCMP
+#
+$CMP AMS1117-5.0
+D 1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223
+K linear regulator ldo fixed positive
+F http://www.advanced-monolithic.com/pdf/ds1117.pdf
+$ENDCMP
+#
+$CMP AP1117-15
+D 1A Low Dropout regulator, positive, 1.5V fixed output, SOT-223
+K linear regulator ldo fixed positive obsolete
+F http://www.diodes.com/datasheets/AP1117.pdf
+$ENDCMP
+#
+$CMP AP1117-18
+D 1A Low Dropout regulator, positive, 1.8V fixed output, SOT-223
+K linear regulator ldo fixed positive obsolete
+F http://www.diodes.com/datasheets/AP1117.pdf
+$ENDCMP
+#
+$CMP AP1117-25
+D 1A Low Dropout regulator, positive, 2.5V fixed output, SOT-223
+K linear regulator ldo fixed positive obsolete
+F http://www.diodes.com/datasheets/AP1117.pdf
+$ENDCMP
+#
+$CMP AP1117-33
+D 1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223
+K linear regulator ldo fixed positive obsolete
+F http://www.diodes.com/datasheets/AP1117.pdf
+$ENDCMP
+#
+$CMP AP1117-50
+D 1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223
+K linear regulator ldo fixed positive obsolete
+F http://www.diodes.com/datasheets/AP1117.pdf
+$ENDCMP
+#
+$CMP BS170F
+D 0.15A Id, 60V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/BS170F.pdf
+$ENDCMP
+#
+$CMP BS870
+D 0.25A Id, 60V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/ds11302.pdf
+$ENDCMP
+#
+$CMP BSN20
+D 0.5A Id, 50V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/ds31898.pdf
+$ENDCMP
+#
+$CMP BSS123
+D 0.17A Id, 100V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/ds30366.pdf
+$ENDCMP
+#
+$CMP BSS127S
+D 0.07A Id, 600V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/BSS127.pdf
+$ENDCMP
+#
+$CMP BSS138
+D 50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf
+$ENDCMP
+#
+$CMP Buzzer
+D Buzzer, polarized
+K quartz resonator ceramic
+F ~
+$ENDCMP
+#
+$CMP C
+D Unpolarized capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP CP
+D Polarized capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP Conn_01x04
+D Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_02x05_Odd_Even
+D Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_02x17_Odd_Even
+D Generic connector, double row, 02x17, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Crystal
+D Two pin crystal
+K quartz ceramic resonator oscillator
+F ~
+$ENDCMP
+#
+$CMP D
+D Diode
+K diode
+F ~
+$ENDCMP
+#
+$CMP DIP_Switch
+D DIP_Switch
+K DIP Switch
+F ~
+$ENDCMP
+#
+$CMP DMG2302U
+D 4.2A Id, 20V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/DMG2302U.pdf
+$ENDCMP
+#
+$CMP DMG3402L
+D 4A Id, 30V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/DMG3402L.pdf
+$ENDCMP
+#
+$CMP DMG3404L
+D 5.8A Id, 30V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/DMG3404L.pdf
+$ENDCMP
+#
+$CMP DMG3406L
+D 3.6A Id, 30V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/DMG3406L.pdf
+$ENDCMP
+#
+$CMP DMG3414U
+D 4.2A Id, 20V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/ds31739.pdf
+$ENDCMP
+#
+$CMP DMG3418L
+D 4A Id, 30V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/DMG3418L.pdf
+$ENDCMP
+#
+$CMP DMN10H220L
+D 1.6A Id, 100V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/DMN10H220L.pdf
+$ENDCMP
+#
+$CMP DMN10H700S
+D 0.7A Id, 100V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/DMN10H700S.pdf
+$ENDCMP
+#
+$CMP DMN13H750S
+D 1A Id, 130V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/DMN13H750S.pdf
+$ENDCMP
+#
+$CMP DMN2041L
+D 6.4A Id, 20V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F https://www.diodes.com/assets/Datasheets/products_inactive_data/DMN2041L.pdf
+$ENDCMP
+#
+$CMP DMN2050L
+D 5.9A Id, 20V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/ds31502.pdf
+$ENDCMP
+#
+$CMP DMN2056U
+D 4A Id, 20V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/DMN2056U.pdf
+$ENDCMP
+#
+$CMP DMN2058U
+D 4.6A Id, 20V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/DMN2058U.pdf
+$ENDCMP
+#
+$CMP DMN2075U
+D 4.2A Id, 20V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/DMN2075U.pdf
+$ENDCMP
+#
+$CMP DMN2230U
+D 2A Id, 20V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/ds31180.pdf
+$ENDCMP
+#
+$CMP DMN24H11DS
+D 0.27A Id, 240V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/DMN24H11DS.pdf
+$ENDCMP
+#
+$CMP DMN24H3D5L
+D 0.48A Id, 240V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/DMN24H3D5L.pdf
+$ENDCMP
+#
+$CMP DMN3042L
+D 5.8A Id, 30V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/DMN3042L.pdf
+$ENDCMP
+#
+$CMP DMN3051L
+D 5.8A Id, 30V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/ds31347.pdf
+$ENDCMP
+#
+$CMP DMN30H4D0L
+D 0.25A Id, 300V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/DMN30H4D0L.pdf
+$ENDCMP
+#
+$CMP DMN3110S
+D 3.3A Id, 30V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/DMN3110S.pdf
+$ENDCMP
+#
+$CMP DMN3150L
+D 3.8A Id, 30V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/ds31126.pdf
+$ENDCMP
+#
+$CMP DMN3300U
+D 2A Id, 30V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/ds31181.pdf
+$ENDCMP
+#
+$CMP DMN3404L
+D 5.8A Id, 30V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/ds31787.pdf
+$ENDCMP
+#
+$CMP DMN6075S
+D 2.5A Id, 60V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/DMN6075S.pdf
+$ENDCMP
+#
+$CMP DMN6140L
+D 2.3A Id, 60V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/DMN6140L.pdf
+$ENDCMP
+#
+$CMP DMN67D7L
+D 0.21A Id, 60V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/DMN67D7L.pdf
+$ENDCMP
+#
+$CMP DMN67D8L
+D 0.21A Id, 60V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/DMN67D8L.pdf
+$ENDCMP
+#
+$CMP GNDD
+D Power symbol creates a global label with name "GNDD" , digital ground
+K power-flag
+$ENDCMP
+#
+$CMP IRLML0030
+D 5.3A Id, 30V Vds, N-Channel HEXFET Power MOSFET, 27mOhm Rds, SOT-23
+K N-Channel HEXFET Power MOSFET
+F https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df
+$ENDCMP
+#
+$CMP IRLML2060
+D 1.2A Id, 60V Vds, N-Channel MOSFET, 480mOhm Rds, SOT-23
+K N-Channel MOSFET
+F https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee
+$ENDCMP
+#
+$CMP KY040_Rotary_Encoder_Module
+D KY040_Rotary_Encoder_Module
+K KY040 Rotary Encoder Module
+F ~
+$ENDCMP
+#
+$CMP LD1117S12TR_SOT223
+D 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 1.2V, SOT-223
+K REGULATOR LDO 1.2V
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117S18TR_SOT223
+D 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 1.8V, SOT-223
+K REGULATOR LDO 1.8V
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117S25TR_SOT223
+D 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 2.5V, SOT-223
+K REGULATOR LDO 2.5V
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117S33TR_SOT223
+D 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT-223
+K REGULATOR LDO 3.3V
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117S50TR_SOT223
+D 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 5.0V, SOT-223
+K REGULATOR LDO 5.0V
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LED
+D Light emitting diode
+K LED diode
+F ~
+$ENDCMP
+#
+$CMP MMBF170
+D 0.5A Id, 60V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F https://www.diodes.com/assets/Datasheets/ds30104.pdf
+$ENDCMP
+#
+$CMP NCP1117-1.5_SOT223
+D 1A Low drop-out regulator, Fixed Output 1.5V, SOT-223
+K REGULATOR LDO 1.5V
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP NCP1117-1.8_SOT223
+D 1A Low drop-out regulator, Fixed Output 1.8V, SOT-223
+K REGULATOR LDO 1.8V
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP NCP1117-12_SOT223
+D 1A Low drop-out regulator, Fixed Output 12V, SOT-223
+K REGULATOR LDO 12V
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP NCP1117-2.0_SOT223
+D 1A Low drop-out regulator, Fixed Output 2V, SOT-223
+K REGULATOR LDO 2V
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP NCP1117-2.5_SOT223
+D 1A Low drop-out regulator, Fixed Output 2.5V, SOT-223
+K REGULATOR LDO 2.5V
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP NCP1117-2.85_SOT223
+D 1A Low drop-out regulator, Fixed Output 2.85V, SOT-223
+K REGULATOR LDO 2.85V
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP NCP1117-3.3_SOT223
+D 1A Low drop-out regulator, Fixed Output 3.3V, SOT-223
+K REGULATOR LDO 3.3V
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP NCP1117-5.0_SOT223
+D 1A Low drop-out regulator, Fixed Output 5V, SOT-223
+K REGULATOR LDO 5V
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP OLED_Display_0.91"_Module
+D OLED_Display_0.91"_Module
+K OLED Display 0.91" Module
+F ~
+$ENDCMP
+#
+$CMP Q_NPN_BEC
+D NPN transistor, base/emitter/collector
+K transistor NPN
+F ~
+$ENDCMP
+#
+$CMP R
+D Resistor
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP STM32F105R8Tx
+D ARM Cortex-M3 MCU, 64KB flash, 64KB RAM, 72MHz, 2-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M3 STM32F1 STM32F105/107
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00220364.pdf
+$ENDCMP
+#
+$CMP STM32F105RBTx
+D ARM Cortex-M3 MCU, 128KB flash, 64KB RAM, 72MHz, 2-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M3 STM32F1 STM32F105/107
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00220364.pdf
+$ENDCMP
+#
+$CMP STM32F105RCTx
+D ARM Cortex-M3 MCU, 256KB flash, 64KB RAM, 72MHz, 2-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M3 STM32F1 STM32F105/107
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00220364.pdf
+$ENDCMP
+#
+$CMP STMPS2141
+D Single power-distribution switcher
+K 1-chanel power-distribution USB
+$ENDCMP
+#
+$CMP SW_Push
+D Push button switch, generic, two pins
+K switch normally-open pushbutton push-button
+F ~
+$ENDCMP
+#
+$CMP USB_A
+D USB Type A connector
+K connector USB
+F  ~
+$ENDCMP
+#
+$CMP VN10LF
+D 0.15A Id, 60V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/VN10LF.pdf
+$ENDCMP
+#
+$CMP ZVN3306F
+D 0.15A Id, 60V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/ZVN3306F.pdf
+$ENDCMP
+#
+$CMP ZVN3310F
+D 0.1A Id, 100V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/ZVN3310F.pdf
+$ENDCMP
+#
+$CMP ZVN3320F
+D 0.06A Id, 200V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/ZVN3320F.pdf
+$ENDCMP
+#
+$CMP ZVN4106F
+D 0.2A Id, 60V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/ZVN4106F.pdf
+$ENDCMP
+#
+$CMP ZXM61N02F
+D 1.7A Id, 20V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/ZXM61N02F.pdf
+$ENDCMP
+#
+$CMP ZXM61N03F
+D 1.4A Id, 30V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/ZXM61N03F.pdf
+$ENDCMP
+#
+$CMP ZXMN10A07F
+D 0.76A Id, 100V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/ZXMN10A07F.pdf
+$ENDCMP
+#
+$CMP ZXMN2A01F
+D 2.2A Id, 20V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/ZXMN2A01F.pdf
+$ENDCMP
+#
+$CMP ZXMN2A14F
+D 4.1A Id, 20V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/ZXMN2A14F.pdf
+$ENDCMP
+#
+$CMP ZXMN2B01F
+D 2.4A Id, 20V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/ZXMN2B01F.pdf
+$ENDCMP
+#
+$CMP ZXMN2B14FH
+D 4.3A Id, 20V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/ZXMN2B14FH.pdf
+$ENDCMP
+#
+$CMP ZXMN2F30FH
+D 4.9A Id, 20V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/ZXMN2F30FH.pdf
+$ENDCMP
+#
+$CMP ZXMN2F34FH
+D 4A Id, 20V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/ZXMN2F34FH.pdf
+$ENDCMP
+#
+$CMP ZXMN3A01F
+D 2A Id, 30V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/ZXMN3A01F.pdf
+$ENDCMP
+#
+$CMP ZXMN3A14F
+D 3.2A Id, 30V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/ZXMN3A14F.pdf
+$ENDCMP
+#
+$CMP ZXMN3B01F
+D 2A Id, 30V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/ZXMN3B01F.pdf
+$ENDCMP
+#
+$CMP ZXMN3B14F
+D 3.5A Id, 30V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/ZXMN3B14F.pdf
+$ENDCMP
+#
+$CMP ZXMN3F30FH
+D 4.6A Id, 30V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/ZXMN3F30FH.pdf
+$ENDCMP
+#
+$CMP ZXMN6A07F
+D 1.4A Id, 60V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.diodes.com/assets/Datasheets/ZXMN6A07F.pdf
+$ENDCMP
+#
+#End Doc Library

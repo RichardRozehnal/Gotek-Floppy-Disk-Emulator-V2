@@ -1,0 +1,1510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Pracovni\Projekty\Gotek_Floppy_Disk_Emulator_V2\Gotek_Floppy_Disk_Emulator_V2.sch</source>
+    <date>02/02/2020 13:29:49</date>
+    <tool>Eeschema (5.1.5)-3</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Gotek Floppy Disk Emulator V2</title>
+        <company>Richi</company>
+        <rev/>
+        <date>2020-01-03</date>
+        <source>Gotek_Floppy_Disk_Emulator_V2.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J6">
+      <value>Floppy Data Connector</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:PinHeader_2x17_P2.54mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="Conn_02x17_Odd_Even" description="Generic connector, double row, 02x17, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0C95AB</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Power Connector</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:PinHeader_1x04_P2.54mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0CB242</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>AMS1117-3.3</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:SOT-223-3_TabPin2</footprint>
+      <datasheet>http://www.advanced-monolithic.com/pdf/ds1117.pdf</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="AMS1117-3.3" description="1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0CD64C</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0CEB75</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0CF85D</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100nF</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0CFB20</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>10uF</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0CFEC9</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0F1FBD</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0F22AA</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100nF</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0F25D5</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100nF</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0F2996</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>4K7</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E105DEF</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E10636C</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>8MHz</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:Crystal_HC49-4H_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="Crystal" description="Two pin crystal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E11394B</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>22pF</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E114A30</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>22pF</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E114D4C</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>STM32F105RBTx</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:LQFP-64_10x10mm_P0.5mm</footprint>
+      <datasheet>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00220364.pdf</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="STM32F105RBTx" description="ARM Cortex-M3 MCU, 128KB flash, 64KB RAM, 72MHz, 2-3.6V, 51 GPIO, LQFP-64"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0AA198</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED Green</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:LED_D3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E19C703</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1K</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E19CF15</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>USB_A</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:USB_A_Stewart_SS-52100-001_Horizontal</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="USB_A" description="USB Type A connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E1EE913</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>22R</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E1F3683</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>22R</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E233ECD</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>DIP Switch</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:SW_DIP_SPSTx08_Slide_6.7x21.88mm_W8.61mm_P2.54mm_LowProfile</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="DIP_Switch" description="DIP_Switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E132512</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1K</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E24EFED</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>1K</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2D3A7B</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>1K</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2D4B01</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>1K</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2D4F4B</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>1K</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2D52C0</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>1K</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2D55F0</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>1K</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2D5888</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>1K</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2E66CB</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>1K</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2E66D1</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>1K</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2E66D7</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>1K</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2E66DD</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>1K</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2E66E3</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>1K</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2E66E9</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>74HCT04</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="74HCT04" description="Hex Inverter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E320696</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>BSS123</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:SOT-23</footprint>
+      <datasheet>http://www.diodes.com/assets/Datasheets/ds30366.pdf</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="BSS123" description="0.17A Id, 100V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E32D66E</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>BSS123</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:SOT-23</footprint>
+      <datasheet>http://www.diodes.com/assets/Datasheets/ds30366.pdf</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="BSS123" description="0.17A Id, 100V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E32F4B7</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>BSS123</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:SOT-23</footprint>
+      <datasheet>http://www.diodes.com/assets/Datasheets/ds30366.pdf</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="BSS123" description="0.17A Id, 100V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E33028C</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>BSS123</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:SOT-23</footprint>
+      <datasheet>http://www.diodes.com/assets/Datasheets/ds30366.pdf</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="BSS123" description="0.17A Id, 100V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E330FB8</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>BSS123</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:SOT-23</footprint>
+      <datasheet>http://www.diodes.com/assets/Datasheets/ds30366.pdf</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="BSS123" description="0.17A Id, 100V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E331F07</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>BSS123</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:SOT-23</footprint>
+      <datasheet>http://www.diodes.com/assets/Datasheets/ds30366.pdf</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="BSS123" description="0.17A Id, 100V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E332CFF</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>1K</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E33540A</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1K</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E335F61</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>1K</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E336191</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>1K</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3364C1</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>1K</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3366F1</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>1K</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E33697E</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:D_MiniMELF</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E336CD8</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Programming Connector</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:PinHeader_2x05_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E530E54</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100nF</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6CAB60</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>MMBT2222</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8965B9</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1K</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E89777C</tstamp>
+    </comp>
+    <comp ref="BZ1">
+      <value>5V Active Buzzer 12mm</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:Buzzer_12x9.5RM7.6</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="Buzzer" description="Buzzer, polarized"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8F3796</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>STMPS2141</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:SOT-23-5</footprint>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="STMPS2141" description="Single power-distribution switcher"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0B5FCF</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E1DD2A6</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>4.7uF/16V</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:CP_EIA-3216-18_Kemet-A</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E57A8DD</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>KY040 Rotary Encoder Module</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="KY040_Rotary_Encoder_Module" description="KY040_Rotary_Encoder_Module"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E1B7A8C</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>OLED Display 0.91" Module</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:OLED_Display_0.91_Module</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="OLED_Display_0.91&quot;_Module" description="OLED_Display_0.91&quot;_Module"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2AFC19</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>1K</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EADD02A</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Gotek_Floppy_Disk_Emulator_V2" part="74LS04">
+      <aliases>
+        <alias>74HC04</alias>
+        <alias>74HCT04</alias>
+        <alias>74AHC04</alias>
+        <alias>74AHCT04</alias>
+      </aliases>
+      <description>Hex Inverter</description>
+      <docs>http://www.ti.com/lit/gpn/sn74LS04</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SSOP?14*</fp>
+        <fp>TSSOP?14*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="output"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="output"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="~" type="output"/>
+        <pin num="9" name="~" type="input"/>
+        <pin num="10" name="~" type="output"/>
+        <pin num="11" name="~" type="input"/>
+        <pin num="12" name="~" type="output"/>
+        <pin num="13" name="~" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Gotek_Floppy_Disk_Emulator_V2" part="AP1117-15">
+      <aliases>
+        <alias>AP1117-18</alias>
+        <alias>AP1117-25</alias>
+        <alias>AP1117-33</alias>
+        <alias>AP1117-50</alias>
+        <alias>LD1117S33TR_SOT223</alias>
+        <alias>LD1117S12TR_SOT223</alias>
+        <alias>LD1117S18TR_SOT223</alias>
+        <alias>LD1117S25TR_SOT223</alias>
+        <alias>LD1117S50TR_SOT223</alias>
+        <alias>NCP1117-12_SOT223</alias>
+        <alias>NCP1117-1.5_SOT223</alias>
+        <alias>NCP1117-1.8_SOT223</alias>
+        <alias>NCP1117-2.0_SOT223</alias>
+        <alias>NCP1117-2.5_SOT223</alias>
+        <alias>NCP1117-2.85_SOT223</alias>
+        <alias>NCP1117-3.3_SOT223</alias>
+        <alias>NCP1117-5.0_SOT223</alias>
+        <alias>AMS1117-1.5</alias>
+        <alias>AMS1117-1.8</alias>
+        <alias>AMS1117-2.5</alias>
+        <alias>AMS1117-2.85</alias>
+        <alias>AMS1117-3.3</alias>
+        <alias>AMS1117-5.0</alias>
+      </aliases>
+      <description>1A Low Dropout regulator, positive, 1.5V fixed output, SOT-223</description>
+      <docs>http://www.diodes.com/datasheets/AP1117.pdf</docs>
+      <footprints>
+        <fp>SOT?223*TabPin2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP1117-15</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Gotek_Floppy_Disk_Emulator_V2" part="BSS138">
+      <aliases>
+        <alias>2N7002</alias>
+        <alias>2N7002E</alias>
+        <alias>2N7002H</alias>
+        <alias>2N7002K</alias>
+        <alias>BS170F</alias>
+        <alias>BS870</alias>
+        <alias>BSN20</alias>
+        <alias>BSS123</alias>
+        <alias>BSS127S</alias>
+        <alias>DMG2302U</alias>
+        <alias>DMG3402L</alias>
+        <alias>DMG3404L</alias>
+        <alias>DMG3406L</alias>
+        <alias>DMG3414U</alias>
+        <alias>DMG3418L</alias>
+        <alias>DMN10H220L</alias>
+        <alias>DMN10H700S</alias>
+        <alias>DMN13H750S</alias>
+        <alias>DMN2041L</alias>
+        <alias>DMN2050L</alias>
+        <alias>DMN2056U</alias>
+        <alias>DMN2058U</alias>
+        <alias>DMN2075U</alias>
+        <alias>DMN2230U</alias>
+        <alias>DMN24H11DS</alias>
+        <alias>DMN24H3D5L</alias>
+        <alias>DMN3042L</alias>
+        <alias>DMN3051L</alias>
+        <alias>DMN30H4D0L</alias>
+        <alias>DMN3110S</alias>
+        <alias>DMN3150L</alias>
+        <alias>DMN3300U</alias>
+        <alias>DMN3404L</alias>
+        <alias>DMN6075S</alias>
+        <alias>DMN6140L</alias>
+        <alias>DMN67D7L</alias>
+        <alias>DMN67D8L</alias>
+        <alias>MMBF170</alias>
+        <alias>VN10LF</alias>
+        <alias>ZVN3306F</alias>
+        <alias>ZVN3310F</alias>
+        <alias>ZVN3320F</alias>
+        <alias>ZVN4106F</alias>
+        <alias>ZXM61N02F</alias>
+        <alias>ZXM61N03F</alias>
+        <alias>ZXMN10A07F</alias>
+        <alias>ZXMN2A01F</alias>
+        <alias>ZXMN2A14F</alias>
+        <alias>ZXMN2B01F</alias>
+        <alias>ZXMN2B14FH</alias>
+        <alias>ZXMN2F30FH</alias>
+        <alias>ZXMN2F34FH</alias>
+        <alias>ZXMN3A01F</alias>
+        <alias>ZXMN3A14F</alias>
+        <alias>ZXMN3B01F</alias>
+        <alias>ZXMN3B14F</alias>
+        <alias>ZXMN3F30FH</alias>
+        <alias>ZXMN6A07F</alias>
+        <alias>IRLML0030</alias>
+        <alias>IRLML2060</alias>
+      </aliases>
+      <description>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Gotek_Floppy_Disk_Emulator_V2" part="Buzzer">
+      <description>Buzzer, polarized</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Buzzer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">BZ</field>
+        <field name="Value">Buzzer</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-" type="passive"/>
+        <pin num="2" name="+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Gotek_Floppy_Disk_Emulator_V2" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Gotek_Floppy_Disk_Emulator_V2" part="CP">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Gotek_Floppy_Disk_Emulator_V2" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Gotek_Floppy_Disk_Emulator_V2" part="Conn_02x05_Odd_Even">
+      <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x05_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Gotek_Floppy_Disk_Emulator_V2" part="Conn_02x17_Odd_Even">
+      <description>Generic connector, double row, 02x17, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x17_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+        <pin num="33" name="Pin_33" type="passive"/>
+        <pin num="34" name="Pin_34" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Gotek_Floppy_Disk_Emulator_V2" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Gotek_Floppy_Disk_Emulator_V2" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Gotek_Floppy_Disk_Emulator_V2" part="DIP_Switch">
+      <description>DIP_Switch</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DIP_Switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DC1" type="passive"/>
+        <pin num="2" name="DC2" type="passive"/>
+        <pin num="3" name="J5" type="passive"/>
+        <pin num="4" name="JC" type="passive"/>
+        <pin num="5" name="JB" type="passive"/>
+        <pin num="6" name="S0" type="passive"/>
+        <pin num="7" name="S1" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+        <pin num="9" name="~" type="passive"/>
+        <pin num="10" name="~" type="passive"/>
+        <pin num="11" name="~" type="passive"/>
+        <pin num="12" name="~" type="passive"/>
+        <pin num="13" name="~" type="passive"/>
+        <pin num="14" name="~" type="passive"/>
+        <pin num="15" name="~" type="passive"/>
+        <pin num="16" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Gotek_Floppy_Disk_Emulator_V2" part="KY040_Rotary_Encoder_Module">
+      <description>KY040_Rotary_Encoder_Module</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">KY040_Rotary_Encoder_Module</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CLK" type="passive"/>
+        <pin num="2" name="DL" type="passive"/>
+        <pin num="3" name="SW" type="passive"/>
+        <pin num="4" name="VCC" type="passive"/>
+        <pin num="5" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Gotek_Floppy_Disk_Emulator_V2" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Gotek_Floppy_Disk_Emulator_V2" part="OLED_Display_0.91&quot;_Module">
+      <description>OLED_Display_0.91"_Module</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">OLED_Display_0.91"_Module</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDA" type="passive"/>
+        <pin num="2" name="SCL" type="passive"/>
+        <pin num="3" name="VCC" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Gotek_Floppy_Disk_Emulator_V2" part="Q_NPN_BEC">
+      <description>NPN transistor, base/emitter/collector</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_BEC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Gotek_Floppy_Disk_Emulator_V2" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Gotek_Floppy_Disk_Emulator_V2" part="STM32F105R8Tx">
+      <aliases>
+        <alias>STM32F105RBTx</alias>
+        <alias>STM32F105RCTx</alias>
+      </aliases>
+      <description>ARM Cortex-M3 MCU, 64KB flash, 64KB RAM, 72MHz, 2-3.6V, 51 GPIO, LQFP-64</description>
+      <docs>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00220364.pdf</docs>
+      <footprints>
+        <fp>LQFP*10x10mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32F105R8Tx</field>
+        <field name="Footprint">Package_QFP:LQFP-64_10x10mm_P0.5mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBAT" type="power_in"/>
+        <pin num="2" name="PC13" type="BiDi"/>
+        <pin num="3" name="PC14" type="BiDi"/>
+        <pin num="4" name="PC15" type="BiDi"/>
+        <pin num="5" name="PD0" type="input"/>
+        <pin num="6" name="PD1" type="input"/>
+        <pin num="7" name="NRST" type="input"/>
+        <pin num="8" name="PC0" type="BiDi"/>
+        <pin num="9" name="PC1" type="BiDi"/>
+        <pin num="10" name="PC2" type="BiDi"/>
+        <pin num="11" name="PC3" type="BiDi"/>
+        <pin num="12" name="VSSA" type="power_in"/>
+        <pin num="13" name="VDDA" type="power_in"/>
+        <pin num="14" name="PA0" type="BiDi"/>
+        <pin num="15" name="PA1" type="BiDi"/>
+        <pin num="16" name="PA2" type="BiDi"/>
+        <pin num="17" name="PA3" type="BiDi"/>
+        <pin num="18" name="VSS" type="power_in"/>
+        <pin num="19" name="VDD" type="power_in"/>
+        <pin num="20" name="PA4" type="BiDi"/>
+        <pin num="21" name="PA5" type="BiDi"/>
+        <pin num="22" name="PA6" type="BiDi"/>
+        <pin num="23" name="PA7" type="BiDi"/>
+        <pin num="24" name="PC4" type="BiDi"/>
+        <pin num="25" name="PC5" type="BiDi"/>
+        <pin num="26" name="PB0" type="BiDi"/>
+        <pin num="27" name="PB1" type="BiDi"/>
+        <pin num="28" name="PB2" type="BiDi"/>
+        <pin num="29" name="PB10" type="BiDi"/>
+        <pin num="30" name="PB11" type="BiDi"/>
+        <pin num="31" name="VSS" type="power_in"/>
+        <pin num="32" name="VDD" type="power_in"/>
+        <pin num="33" name="PB12" type="BiDi"/>
+        <pin num="34" name="PB13" type="BiDi"/>
+        <pin num="35" name="PB14" type="BiDi"/>
+        <pin num="36" name="PB15" type="BiDi"/>
+        <pin num="37" name="PC6" type="BiDi"/>
+        <pin num="38" name="PC7" type="BiDi"/>
+        <pin num="39" name="PC8" type="BiDi"/>
+        <pin num="40" name="PC9" type="BiDi"/>
+        <pin num="41" name="PA8" type="BiDi"/>
+        <pin num="42" name="PA9" type="BiDi"/>
+        <pin num="43" name="PA10" type="BiDi"/>
+        <pin num="44" name="PA11" type="BiDi"/>
+        <pin num="45" name="PA12" type="BiDi"/>
+        <pin num="46" name="PA13" type="BiDi"/>
+        <pin num="47" name="VSS" type="power_in"/>
+        <pin num="48" name="VDD" type="power_in"/>
+        <pin num="49" name="PA14" type="BiDi"/>
+        <pin num="50" name="PA15" type="BiDi"/>
+        <pin num="51" name="PC10" type="BiDi"/>
+        <pin num="52" name="PC11" type="BiDi"/>
+        <pin num="53" name="PC12" type="BiDi"/>
+        <pin num="54" name="PD2" type="BiDi"/>
+        <pin num="55" name="PB3" type="BiDi"/>
+        <pin num="56" name="PB4" type="BiDi"/>
+        <pin num="57" name="PB5" type="BiDi"/>
+        <pin num="58" name="PB6" type="BiDi"/>
+        <pin num="59" name="PB7" type="BiDi"/>
+        <pin num="60" name="BOOT0" type="input"/>
+        <pin num="61" name="PB8" type="BiDi"/>
+        <pin num="62" name="PB9" type="BiDi"/>
+        <pin num="63" name="VSS" type="power_in"/>
+        <pin num="64" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Gotek_Floppy_Disk_Emulator_V2" part="STMPS2141">
+      <description>Single power-distribution switcher</description>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STMPS2141</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="power_out"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="~FAULT" type="openCol"/>
+        <pin num="4" name="~EN" type="input"/>
+        <pin num="5" name="IN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Gotek_Floppy_Disk_Emulator_V2" part="USB_A">
+      <description>USB Type A connector</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_in"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Gotek_Floppy_Disk_Emulator_V2">
+      <uri>C:\Pracovni\Projekty\Gotek_Floppy_Disk_Emulator_V2/libs/Gotek_Floppy_Disk_Emulator_V2.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(J6-Pad2)">
+      <node ref="Q2" pin="3"/>
+      <node ref="R14" pin="1"/>
+      <node ref="J6" pin="2"/>
+    </net>
+    <net code="2" name="Net-(J6-Pad26)">
+      <node ref="R22" pin="1"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="J6" pin="26"/>
+    </net>
+    <net code="3" name="Net-(J6-Pad28)">
+      <node ref="Q5" pin="3"/>
+      <node ref="J6" pin="28"/>
+      <node ref="R23" pin="1"/>
+    </net>
+    <net code="4" name="Net-(J6-Pad30)">
+      <node ref="R24" pin="1"/>
+      <node ref="J6" pin="30"/>
+      <node ref="Q6" pin="3"/>
+    </net>
+    <net code="5" name="FPI5V_WGATEn">
+      <node ref="U2" pin="62"/>
+      <node ref="R21" pin="1"/>
+      <node ref="J6" pin="24"/>
+    </net>
+    <net code="6" name="FPI5V_SIDEn">
+      <node ref="U2" pin="56"/>
+      <node ref="R25" pin="1"/>
+      <node ref="J6" pin="32"/>
+    </net>
+    <net code="7" name="FPI5V_WDATAn">
+      <node ref="U2" pin="41"/>
+      <node ref="R20" pin="1"/>
+      <node ref="J6" pin="22"/>
+    </net>
+    <net code="8" name="FPI5V_STEPn">
+      <node ref="U2" pin="15"/>
+      <node ref="J6" pin="20"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="9" name="FPI5V_DIRn">
+      <node ref="R18" pin="1"/>
+      <node ref="J6" pin="18"/>
+      <node ref="U2" pin="26"/>
+    </net>
+    <net code="10" name="Net-(J5-Pad10)">
+      <node ref="J5" pin="10"/>
+    </net>
+    <net code="11" name="USART1_RX">
+      <node ref="U2" pin="43"/>
+      <node ref="J5" pin="3"/>
+    </net>
+    <net code="12" name="USART1_TX">
+      <node ref="U2" pin="42"/>
+      <node ref="J5" pin="5"/>
+    </net>
+    <net code="13" name="BOOT_0">
+      <node ref="J5" pin="9"/>
+      <node ref="U2" pin="60"/>
+    </net>
+    <net code="14" name="Net-(J6-Pad34)">
+      <node ref="J6" pin="34"/>
+      <node ref="Q7" pin="3"/>
+      <node ref="R26" pin="1"/>
+    </net>
+    <net code="15" name="Net-(R13-Pad1)">
+      <node ref="U4" pin="8"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="16" name="FPO3V_READYn">
+      <node ref="U2" pin="55"/>
+      <node ref="U4" pin="9"/>
+    </net>
+    <net code="17" name="Net-(D2-Pad1)">
+      <node ref="R12" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="U4" pin="10"/>
+    </net>
+    <net code="18" name="FPO3V_RDDATAn">
+      <node ref="U4" pin="11"/>
+      <node ref="U2" pin="23"/>
+    </net>
+    <net code="19" name="FPO3V_DSKCHGn">
+      <node ref="U4" pin="13"/>
+      <node ref="U2" pin="59"/>
+    </net>
+    <net code="20" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="21" name="Net-(R11-Pad1)">
+      <node ref="U4" pin="6"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="22" name="Net-(Q4-Pad1)">
+      <node ref="Q4" pin="1"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="23" name="Net-(Q5-Pad1)">
+      <node ref="Q5" pin="1"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="24" name="Net-(Q7-Pad1)">
+      <node ref="R13" pin="2"/>
+      <node ref="Q7" pin="1"/>
+    </net>
+    <net code="25" name="Net-(R8-Pad1)">
+      <node ref="U4" pin="12"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="26" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="27" name="Net-(J6-Pad8)">
+      <node ref="J6" pin="8"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="28" name="FPO3V_INDEXn">
+      <node ref="U2" pin="61"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="29" name="Net-(R9-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="30" name="FPO3V_TRK00n">
+      <node ref="U2" pin="58"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="31" name="Net-(R10-Pad1)">
+      <node ref="U4" pin="4"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="32" name="FPO3V_WPTn">
+      <node ref="U2" pin="57"/>
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="33" name="GNDD">
+      <node ref="J6" pin="19"/>
+      <node ref="C12" pin="2"/>
+      <node ref="J6" pin="11"/>
+      <node ref="C5" pin="2"/>
+      <node ref="J6" pin="21"/>
+      <node ref="J6" pin="17"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="J6" pin="15"/>
+      <node ref="J6" pin="13"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J6" pin="25"/>
+      <node ref="C4" pin="2"/>
+      <node ref="J6" pin="27"/>
+      <node ref="J6" pin="29"/>
+      <node ref="J6" pin="3"/>
+      <node ref="J6" pin="31"/>
+      <node ref="J6" pin="23"/>
+      <node ref="J6" pin="33"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U2" pin="18"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U2" pin="28"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U2" pin="12"/>
+      <node ref="J1" pin="3"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C6" pin="2"/>
+      <node ref="J6" pin="5"/>
+      <node ref="J6" pin="7"/>
+      <node ref="J6" pin="9"/>
+      <node ref="U2" pin="63"/>
+      <node ref="Q7" pin="2"/>
+      <node ref="Q6" pin="2"/>
+      <node ref="J3" pin="5"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U2" pin="47"/>
+      <node ref="U2" pin="53"/>
+      <node ref="J3" pin="4"/>
+      <node ref="J5" pin="2"/>
+      <node ref="U4" pin="7"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="J2" pin="4"/>
+      <node ref="U2" pin="31"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="SW2" pin="3"/>
+      <node ref="SW2" pin="4"/>
+      <node ref="SW1" pin="5"/>
+    </net>
+    <net code="34" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="Q6" pin="1"/>
+    </net>
+    <net code="35" name="NRST">
+      <node ref="U2" pin="7"/>
+      <node ref="J5" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="36" name="Net-(J6-Pad4)">
+      <node ref="SW2" pin="14"/>
+      <node ref="R15" pin="1"/>
+      <node ref="J6" pin="4"/>
+    </net>
+    <net code="37" name="Net-(SW1-Pad1)">
+      <node ref="U2" pin="52"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="38" name="Net-(SW1-Pad2)">
+      <node ref="SW1" pin="2"/>
+      <node ref="U2" pin="51"/>
+    </net>
+    <net code="39" name="Net-(SW1-Pad3)">
+      <node ref="U2" pin="37"/>
+      <node ref="SW1" pin="3"/>
+    </net>
+    <net code="40" name="Net-(U2-Pad38)">
+      <node ref="U2" pin="38"/>
+    </net>
+    <net code="41" name="Net-(U2-Pad39)">
+      <node ref="U2" pin="39"/>
+    </net>
+    <net code="42" name="+3V3">
+      <node ref="C11" pin="1"/>
+      <node ref="J5" pin="7"/>
+      <node ref="U2" pin="64"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C10" pin="1"/>
+      <node ref="J2" pin="3"/>
+      <node ref="SW1" pin="4"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U2" pin="32"/>
+      <node ref="U2" pin="48"/>
+      <node ref="U2" pin="13"/>
+      <node ref="U2" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U2" pin="19"/>
+    </net>
+    <net code="43" name="Net-(SW2-Pad9)">
+      <node ref="SW2" pin="9"/>
+    </net>
+    <net code="44" name="Net-(SW2-Pad8)">
+      <node ref="SW2" pin="8"/>
+    </net>
+    <net code="45" name="Net-(J6-Pad12)">
+      <node ref="SW2" pin="10"/>
+      <node ref="J6" pin="12"/>
+    </net>
+    <net code="46" name="Net-(J6-Pad1)">
+      <node ref="J6" pin="1"/>
+      <node ref="SW2" pin="16"/>
+      <node ref="SW2" pin="15"/>
+    </net>
+    <net code="47" name="JTCK-SWCLK">
+      <node ref="U2" pin="49"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="J5" pin="6"/>
+    </net>
+    <net code="48" name="JUMPER_JB">
+      <node ref="SW2" pin="12"/>
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="49" name="Net-(U2-Pad34)">
+      <node ref="U2" pin="34"/>
+    </net>
+    <net code="50" name="+5V">
+      <node ref="R23" pin="2"/>
+      <node ref="R22" pin="2"/>
+      <node ref="R21" pin="2"/>
+      <node ref="R20" pin="2"/>
+      <node ref="R19" pin="2"/>
+      <node ref="R18" pin="2"/>
+      <node ref="R25" pin="2"/>
+      <node ref="R16" pin="2"/>
+      <node ref="R15" pin="2"/>
+      <node ref="R14" pin="2"/>
+      <node ref="R24" pin="2"/>
+      <node ref="U4" pin="14"/>
+      <node ref="J5" pin="4"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R26" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="J1" pin="4"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U1" pin="3"/>
+      <node ref="R17" pin="2"/>
+      <node ref="BZ1" pin="1"/>
+    </net>
+    <net code="51" name="Net-(U2-Pad33)">
+      <node ref="U2" pin="33"/>
+    </net>
+    <net code="52" name="Net-(U2-Pad35)">
+      <node ref="U2" pin="35"/>
+    </net>
+    <net code="53" name="MOTOR_SIGNAL">
+      <node ref="J6" pin="16"/>
+      <node ref="U2" pin="36"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="54" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="55" name="JTMS-SWDIO">
+      <node ref="J5" pin="8"/>
+      <node ref="U2" pin="46"/>
+    </net>
+    <net code="56" name="SOUND">
+      <node ref="SW2" pin="5"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="57" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="58" name="Net-(BZ1-Pad2)">
+      <node ref="BZ1" pin="2"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="59" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="U2" pin="21"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="60" name="Net-(U2-Pad20)">
+      <node ref="U3" pin="4"/>
+      <node ref="U2" pin="20"/>
+    </net>
+    <net code="61" name="Net-(U2-Pad24)">
+      <node ref="U2" pin="24"/>
+    </net>
+    <net code="62" name="Net-(U2-Pad25)">
+      <node ref="U2" pin="25"/>
+    </net>
+    <net code="63" name="Net-(U2-Pad40)">
+      <node ref="U2" pin="40"/>
+    </net>
+    <net code="64" name="Net-(U2-Pad10)">
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="65" name="Net-(U2-Pad11)">
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="66" name="Net-(U2-Pad17)">
+      <node ref="U2" pin="17"/>
+    </net>
+    <net code="67" name="Net-(U2-Pad22)">
+      <node ref="U2" pin="22"/>
+    </net>
+    <net code="68" name="Net-(J2-Pad2)">
+      <node ref="U2" pin="29"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="69" name="Net-(J2-Pad1)">
+      <node ref="U2" pin="30"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="70" name="Net-(C6-Pad1)">
+      <node ref="Y1" pin="2"/>
+      <node ref="U2" pin="6"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="71" name="Net-(C5-Pad1)">
+      <node ref="U2" pin="5"/>
+      <node ref="C5" pin="1"/>
+      <node ref="Y1" pin="1"/>
+    </net>
+    <net code="72" name="Net-(U2-Pad54)">
+      <node ref="U2" pin="54"/>
+    </net>
+    <net code="73" name="Net-(U2-Pad8)">
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="74" name="Net-(U2-Pad9)">
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="75" name="Net-(J6-Pad6)">
+      <node ref="J6" pin="6"/>
+    </net>
+    <net code="76" name="Net-(J6-Pad10)">
+      <node ref="SW2" pin="11"/>
+      <node ref="J6" pin="10"/>
+    </net>
+    <net code="77" name="Net-(J6-Pad14)">
+      <node ref="J6" pin="14"/>
+    </net>
+    <net code="78" name="JUMPER_JC">
+      <node ref="SW2" pin="13"/>
+      <node ref="U2" pin="27"/>
+    </net>
+    <net code="79" name="Net-(U2-Pad50)">
+      <node ref="U2" pin="50"/>
+    </net>
+    <net code="80" name="FPI5V_DSELn">
+      <node ref="U2" pin="14"/>
+      <node ref="D1" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="SW2" pin="6"/>
+      <node ref="SW2" pin="7"/>
+    </net>
+    <net code="81" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1"/>
+      <node ref="U2" pin="45"/>
+    </net>
+    <net code="82" name="Net-(J3-Pad3)">
+      <node ref="R6" pin="2"/>
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="83" name="Net-(R5-Pad1)">
+      <node ref="U2" pin="44"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="84" name="Net-(J3-Pad2)">
+      <node ref="J3" pin="2"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="85" name="Net-(C13-Pad1)">
+      <node ref="C13" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="86" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R3" pin="1"/>
+    </net>
+  </nets>
+</export>

@@ -49,13 +49,14 @@ Emulátor disketové mechaniky starých počítačů a různých zařízení. So
 
 Pro Amigu, Atari ST a další počítače je nastavení:
 
-DC1 - OFF
-DC2 - ON
-J5 - OFF
-JC - OFF
-JB - ON - zapnutí/vypnutí emulace zvuku mechaniky
-S0 - ON
-S1 - OFF
+| :-: | :-: | --------------------------------------- |
+| DC1 | OFF |                                         |
+| DC2 | ON  |                                         |
+| J5  | OFF |                                         |
+| JC  | OFF |                                         |
+| JB  | ON  | zapnutí/vypnutí emulace zvuku mechaniky |
+| S0  | ON  |                                         |
+| S1  | OFF |                                         |
 
 ### Příprava USB flash disku a základní operace
 

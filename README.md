@@ -3,7 +3,7 @@
 ![Gotek Floppy Disk Emulator V2](Fotky/Gotek_V2_PCB_Top_osazeny.jpg "Gotek Floppy Disk Emulator V2")
 
 Emulátor disketové mechaniky starých počítačů a různých zařízení. Software se do počítače nahrává z obrazu originálního disku (např. ADF pro Amigu), který je uložen na USB flash disku. Tato verze hardwaru využívá firmware [FlashFloppy](https://github.com/keirf/FlashFloppy/wiki), který přidává spoustu nových funkcí a vylepšení oproti standardnímu Goteku. Na uvedém odkazu tvůrce, najdete detailní popisy všech funkcí a nastavení a také nejnovější firmware.
-<br>
+<br><br>
 
 ## Seznam součástek
 
@@ -35,7 +35,6 @@ Emulátor disketové mechaniky starých počítačů a různých zařízení. So
 | U4,                                                                                                      | 1        | 74HCT04                     | 74HCT04                        |
 | Y1,                                                                                                      | 1        | 8MHz                        | Crystal                        |
 
-<br>
 
 ## Oživení
 

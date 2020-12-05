@@ -64,7 +64,7 @@ Pro Amigu, Atari ST a další počítače je nastavení:
 1. USB flash disk naformátujte na FAT32 a nahrajte na něj obrazy disků, které budete chtít spouštět, např. ADF pro Amigu
 2. připojte Gotek V2 s vloženým USB flash diskem k Amize (místo interního floppy disku), napájecí konektor je dobré před zapojením změřit, abyste do Goteku V2 nepustili 12V místo 5V, kvůli obrácení konektoru!
 3. zapněte Amigu, na displeji se zobrazí první z podporovaných souborů, které jste nahráli a rotačním enkodérem mezi nima vybíráte
-4. když najedete na soubor a počkáte 2s, tak se automaticky spustí (vloží do floppy mechaniky). Toto je možné v nastavení změnit, aby se automaticky naspouštěl. Potom bude pro vložení do mechaniky nutné stisknout rotační enkodér.
+4. když najedete na soubor a počkáte 2s, tak se automaticky spustí (vloží do floppy mechaniky). Toto je možné v nastavení změnit, aby se automaticky nespouštěl. Potom bude pro vložení do mechaniky nutné stisknout rotační enkodér.
 5. pokud chcete změnit orientaci posuvu v souborech (otáčení enkodéru doprava/doleva posouvat soubory nahoru/dolů), je to možné změnit v nastavení.
 6. pokud se výběr souborů posune o jednu položku až při dvou nebo čtyřech krocích otočení enkodérem, je možné toto také upravit v nastavení
 
